@@ -1,0 +1,129 @@
+header{
+  background-color: rgb(255, 38, 38);
+  position: fixed;
+  box-shadow: 0 1px 5px rgb(167, 6, 6);
+  width: 100%;
+  z-index: 1000;
+}
+
+header h1{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 20px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.header-checkbox{
+  position: absolute;
+  top: 0px;
+  left: -50vw;
+}
+
+.open-check{
+  color: white;
+  font-size: 50px;
+  line-height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+
+
+
+
+.close-check-1{
+  font-size: 50px;
+  padding-left: 10px;
+}
+.close-check-2{
+  /* display: block; */
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -100;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+.header-nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  width: 50vw;
+  height: 100vh;
+  z-index: 1;
+  border-right: 1px solid black;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.header-list{
+  padding-top: 30px;
+}
+
+.header-item{
+  padding: 10px 0px;
+  padding-left: 10px;
+  border-bottom: dotted 1px black;
+}
+.header-item a{
+  font-size: 20px;
+}
+
+
+
+
+.header-footer{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header-footer p{
+  font-size: 14px;
+  padding: 20px 0px;
+}
+
+
+
+.header-checked-1{
+  top: 0px;
+  left: -50vw;
+}
+
+
+.header-checked-2{
+  top: 0px;
+  right: -50vw;
+}
+
+
+
+
+
+
+
+.note{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 40px 0px;
+}
+
+
+
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブログ型サイト</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>タコさんブログ</h1>
+
+    <div class="mobile-only">
+      <input type="checkbox" name="header-checkbox" id="header-checkbox" class="header-checkbox">
+      <label for="header-checkbox" class="open-check" onclick="checked()">≡</label>
+    </div>
+
+    <nav class="header-nav header-checked-1 header-checked-media" id="header-nav">
+      <div class="mobile-only">
+        <label for="header-checkbox" class="close-check-1" onclick="checked()">×</label>
+        <label for="header-checkbox" class="close-check-2 header-checked-2" onclick="checked()" id="close-check-2"></label>
+      </div>
+
+      <ul class="header-list">
+        <li class="header-item"><a href="#"><span>◯ </span>HTML</a></li>
+        <li class="header-item"><a href="#"><span>◯ </span>CSS</a></li>
+        <li class="header-item"><a href="#"><span>◯ </span>JavaScript</a></li>
+        <li class="header-item"><a href="#"><span>◯ </span>WordPress</a></li>
+        <li class="header-item"><a href="#"><span>◯ </span>ツール関連</a></li>
+      </ul>
+
+      <p class="note mobile-only">
+        ※このブログは、ポートフォリオの為のサイトなので、実際には存在しません
+      </p>
+
+      <footer class="header-footer mobile-only">
+        <p>©︎2020/タコさんブログ</p>
+      </footer>
+    </nav>
+  </header>
+  
+  <div class="note-2">
+    <p>※ポートフォリオ用のサイトなので、実際には存在しません</p>
+  </div>
+
+  <main>
+
+    
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">エディター</p>
+        <img src="img/jesus-kiteque-wn-KYaHwcis-unsplash.jpg">
+        <p class="img-text img-text-3">VSCode</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>VSCodeの使い方を解説。最低限のプラグインまで教えます</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          エンジニアの中でも安定の人気を誇るエディターですね<br>
+          この記事だけで、VSCodeマスターは名乗れます
+        </p>
+      </div>
+    </div>
+    
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">転職</p>
+        <img src="img/desk-1081708_1280.jpg">
+        <p class="img-text img-text-4">エンジニアは30代から</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>エンジニアは30代ならまだ間に合います。【根拠もあります】</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          根拠もあります。<br>
+          エンジニアが30代からでも間に合う理由を根拠ありで解説しました。
+        </p>
+      </div>
+    </div>
+
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">HTML</p>
+        <img src="img/texture-1099399_1280.jpg">
+        <p class="img-text img-text-1">HTMLの便利な小技一覧</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>HTMLを使った小技集<br>【完全初心者向け】</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          HTMLのコードを書くときに便利なコードを小技を集めました。<br>
+          実際のコーディングでよく使うので、初心者の方は覚えておいても良いんじゃないでしょうか。<br>
+        </p>
+      </div>
+    </div>
+
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">独学</p>
+        <img src="img/pyrenees-351266_1280.jpg">
+        <p class="img-text img-text-2">プログラミングはスクールへ行こう。</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>プログラミングの独学は諦めた方が良い理由。根拠まで徹底解説</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          エンジニアに独学でなった僕が、独学がダメな理由を根拠も混ぜて話します。<br>
+          僕の独断と偏見なので、あまり深く信じてはいけません
+        </p>
+      </div>
+    </div>
+    
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">CSS</p>
+        <img src="img/plant-2004483_1280.jpg">
+        <p class="img-text img-text-5">flex box</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>【コピペあり】flex boxの使い方を解説。</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          HTML・CSSの登龍門と言っても過言ではない、flex box を1から解説します<br>
+          コピペで使えるもの用意しました。
+        </p>
+      </div>
+    </div>
+
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">HTML・CSS</p>
+        <img src="img/workplace-2303851_1280.jpg">
+        <p class="img-text img-text-6">HTML・CSSの勉強、いつ終わる？</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>HTML・CSSの勉強っていつ終わる？</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          HTML・CSS って理解はできるのに、なんか定着してない感ありますよね。<br>
+          そんな悩みを一気に解決します
+        </p>
+      </div>
+    </div>
+
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">CSS</p>
+        <img src="img/wood-591631_1280.jpg">
+        <p class="img-text img-text-7">Positionは簡単です</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>【CSS】positionの使い方を解説。</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          定義が多くて、表示崩れしやすいイメージがありますよね。<br>
+          今回はそんな悩みを解決しました
+        </p>
+      </div>
+    </div>
+
+    <div class="main-item">
+      <div class="main-item-top">
+        <p class="main-text-btn">JavaScript</p>
+        <img src="img/light-1282314_1280.jpg">
+        <p class="img-text img-text-8">コピペもあります</p>
+      </div>
+      <div class="main-item-bottom">
+        <h3>【コピペ推奨】jQueryのフワッと移動を1から解説します</h3>
+        <div class="main-time-box">
+          <time>2020/09/19</time>
+        </div>
+        <p class="main-bottom-text">
+          ページ内リンクで飛んだときに、フワッと移動することありますよね
+          それの使い方を解説しました。
+          コピペもあるんで是非！
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>©︎2020/タコさんブログ</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
